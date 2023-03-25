@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		D6C993E029CF273700B9D7D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C993DF29CF273700B9D7D8 /* AppDelegate.swift */; };
 		D6C993E229CF273700B9D7D8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C993E129CF273700B9D7D8 /* SceneDelegate.swift */; };
-		D6C993E429CF273700B9D7D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C993E329CF273700B9D7D8 /* ViewController.swift */; };
 		D6C993E729CF273700B9D7D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6C993E529CF273700B9D7D8 /* Main.storyboard */; };
 		D6C993E929CF273800B9D7D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6C993E829CF273800B9D7D8 /* Assets.xcassets */; };
 		D6C993EC29CF273800B9D7D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6C993EA29CF273800B9D7D8 /* LaunchScreen.storyboard */; };
+		D6C993F429CF2A7500B9D7D8 /* FakeLoanTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C993F329CF2A7500B9D7D8 /* FakeLoanTableViewController.swift */; };
+		D6C993F629CF2ABB00B9D7D8 /* FakeLoanTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C993F529CF2ABB00B9D7D8 /* FakeLoanTableViewCell.swift */; };
+		D6C993F829CF2ACB00B9D7D8 /* Loan.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C993F729CF2ACB00B9D7D8 /* Loan.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D6C993DC29CF273700B9D7D8 /* Fake Loans.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fake Loans.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6C993DF29CF273700B9D7D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D6C993E129CF273700B9D7D8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D6C993E329CF273700B9D7D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D6C993E629CF273700B9D7D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D6C993E829CF273800B9D7D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6C993EB29CF273800B9D7D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D6C993ED29CF273800B9D7D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6C993F329CF2A7500B9D7D8 /* FakeLoanTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeLoanTableViewController.swift; sourceTree = "<group>"; };
+		D6C993F529CF2ABB00B9D7D8 /* FakeLoanTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeLoanTableViewCell.swift; sourceTree = "<group>"; };
+		D6C993F729CF2ACB00B9D7D8 /* Loan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loan.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +62,13 @@
 			children = (
 				D6C993DF29CF273700B9D7D8 /* AppDelegate.swift */,
 				D6C993E129CF273700B9D7D8 /* SceneDelegate.swift */,
-				D6C993E329CF273700B9D7D8 /* ViewController.swift */,
 				D6C993E529CF273700B9D7D8 /* Main.storyboard */,
 				D6C993E829CF273800B9D7D8 /* Assets.xcassets */,
 				D6C993EA29CF273800B9D7D8 /* LaunchScreen.storyboard */,
 				D6C993ED29CF273800B9D7D8 /* Info.plist */,
+				D6C993F329CF2A7500B9D7D8 /* FakeLoanTableViewController.swift */,
+				D6C993F529CF2ABB00B9D7D8 /* FakeLoanTableViewCell.swift */,
+				D6C993F729CF2ACB00B9D7D8 /* Loan.swift */,
 			);
 			path = "Fake Loans";
 			sourceTree = "<group>";
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6C993E429CF273700B9D7D8 /* ViewController.swift in Sources */,
 				D6C993E029CF273700B9D7D8 /* AppDelegate.swift in Sources */,
+				D6C993F829CF2ACB00B9D7D8 /* Loan.swift in Sources */,
+				D6C993F429CF2A7500B9D7D8 /* FakeLoanTableViewController.swift in Sources */,
+				D6C993F629CF2ABB00B9D7D8 /* FakeLoanTableViewCell.swift in Sources */,
 				D6C993E229CF273700B9D7D8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
